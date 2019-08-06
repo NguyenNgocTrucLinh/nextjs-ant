@@ -1,0 +1,12 @@
+// tạo .babelrc trong thư mục gốc và định cấu hình Babel để sử dụng đúng cài đặt sẵn Next.js và nhập antd
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "import", {
+        "libraryName": "antd",
+        "style": true
+      },
+    ]
+  ]
+}
